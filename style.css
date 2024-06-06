@@ -16,6 +16,9 @@ justify-content: space-evenly;
     height: 50px;
     width:100px;
 }
+span{
+    font-size: 5rem;
+}
 .logo{
     background-image: url("amazon_logo.png");
     background-size: cover;
@@ -237,3 +240,77 @@ ul a {
     padding: 5px;
    
 }
+
+ @media(max-width: 560px) {
+    .logo{
+        width:60px;
+        margin-right: 1rem;
+    }
+.nav-address,.nav-returns, .nav-cart,.nav-signin  {
+display: none;
+    }
+    .panelall{
+        margin-left: 1rem;
+    }
+    .panel-options{
+        
+        font-size: 10px;
+      
+    }
+    .panel-options p {
+       display: none;
+    }
+    .panel-deals{
+ align-items: left;
+    }
+    .hero-section{
+        background-image: url("hero_image.jpg");
+        height: 150px;
+        background-size: cover;
+        display: flex;
+    justify-content: center;
+    align-items: flex-end;
+       
+    }
+    .hero-me{
+        font-size: 0.5rem;
+    }
+    .shop-section{
+        display: block;
+       
+        background-color: #e2e7e6;
+       
+        
+    }
+    .box{
+     
+         height: 400px;
+        background-color: white;
+        width: 100%;
+        padding: 20px 0px 15px;
+        margin-top: 15px;
+        color: #0f0f01;
+        font-size: medium;
+        font-weight: 1rem;
+    }
+    .foot-panel2{
+        background-color: #222f3d;
+        color: white;
+        height:350px ;
+       
+    }
+    ul {
+        margin: 1px;
+        
+    }
+    ul a {
+        display: block;
+        font-size: 0.6rem;
+        margin-top:10px ;
+        color:white;
+    }
+    ul p{
+font-size: 0.6rem;
+font-weight: 5rem;
+margin-top: 20px;
+    } 
